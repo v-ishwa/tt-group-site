@@ -25,7 +25,7 @@ const History = () => {
 
                     {/* Text Section */}
                     <div className="">
-                        <h2 className="text-3xl font-semibold text-gray-900">
+                        <h2 className="text-5xl font-semibold text-gray-900">
                             A legacy of leadership <br /> and a future of <span className="text-red-600">growth</span>
                         </h2>
 
