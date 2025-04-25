@@ -19,7 +19,7 @@ const History = () => {
                 <div className="flex-1 flex flex-col gap-24">
                     {/* Top Images */}
                     <div className="flex gap-4 flex-wrap">
-                        <Image src={image1} alt="Image 1" className=" filter grayscale flex-none w-[187px] h-[187px]" />
+                        <Image src={image1} alt="Image1" className=" filter grayscale flex-none w-[187px] h-[187px]" />
                         <Image src={image2} alt="Image 2" className=" filter grayscale" />
                     </div>
 
