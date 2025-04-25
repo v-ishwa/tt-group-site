@@ -1,0 +1,26 @@
+name: Development
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: inwebz-lnxsrv3
+    steps:
+      - name: Clone Repository
+        uses: actions/checkout@v3
+        with:
+          path: 'dev'
+
+      - name: Install Packages & Setup
+        run: |
+          cd dev
+          # cp .env.dev .env
+          pnpm install --no-frozen-lockfile
+
+      - name: Build
+        run: |
+          cd dev
+          pnpm build
+
